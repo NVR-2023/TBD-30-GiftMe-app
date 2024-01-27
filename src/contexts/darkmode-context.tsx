@@ -10,32 +10,32 @@ import React, {
   SetStateAction,
 } from "react";
 
-type DarkmodeType = {
-  darkmode: boolean;
-  setDarkmode: Dispatch<SetStateAction<boolean>>;
+type DarkModeType = {
+  darkMode: boolean;
+  setDarkMode: Dispatch<SetStateAction<boolean>>;
 };
 
-const darknodeContext = createContext<DarkmodeType | undefined>(undefined);
+const darkModeContext = createContext<DarkModeType | undefined>(undefined);
 
-type DarkmodeWrapperProps = {
+type DarkModeWrapperProps = {
   children: ReactNode;
 };
 
-export const DarkmodeWrapper: FC<DarkmodeWrapperProps> = ({ children }) => {
-  const [darkmode, setDarkmode] = useState(false);
+export const DarkModeWrapper: FC<DarkModeWrapperProps> = ({ children }) => {
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <darknodeContext.Provider value={{ darkmode, setDarkmode }}>
+    <darkModeContext.Provider value={{ darkMode: darkMode, setDarkMode: setDarkMode }}>
       {children}
-    </darknodeContext.Provider>
+    </darkModeContext.Provider>
   );
 };
 
-export const useDarkmodeContext = (): DarkmodeType => {
-  const context = useContext(darknodeContext);
+export const useDarkModeContext = (): DarkModeType => {
+  const context = useContext(darkModeContext);
 
   if (!context) {
-    throw new Error("useDarkmodeContext must be used within a DarkmodeWrapper");
+    throw new Error("useDarkModeContext must be used within a DarkmodeWrapper");
   }
 
   return context;

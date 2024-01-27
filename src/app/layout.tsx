@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { DarkmodeWrapper } from "@/contexts/darkmode-context";
+import { DarkModeWrapper } from "@/contexts/darkmode-context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <DarkmodeWrapper >
-        {children}
-      </DarkmodeWrapper>
+        <DarkModeWrapper>{children}</DarkModeWrapper>
       </body>
     </html>
   );

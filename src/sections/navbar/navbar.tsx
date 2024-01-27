@@ -1,11 +1,15 @@
 import React, { FC } from "react";
+import { useDarkModeContext } from "@/contexts/darkmode-context";
+
 
 const Navbar: FC = () => {
+  const { darkMode , setDarkMode } = useDarkModeContext();
+
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className="">
+      <div className="navbar bg-base-100 dark:bg-zinc-800 ">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI Connected</a>
+          <a className="bg-white text-black dark:bg-black dark:text-white">daisyUI Connected</a>
         </div>
         <div className="flex-none">
           <div className="dropdown dropdown-end">
