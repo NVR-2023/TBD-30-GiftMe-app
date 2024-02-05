@@ -8,8 +8,41 @@ const Wishlists: FC = () => {
         <div className="bg-red-500 col-span-12 row-span-1">Navbar</div>
         <div className="bg-green-500 col-span-2 row-span-1">Sidebar navbar</div>
         <div className="bg-yellow-500 col-span-10 row-span-1">Content navbar</div>
-        <div className="bg-orange-500 col-span-2 row-span-10">Sidebar Content</div>
-        <div className="bg-purple-500 col-span-10 row-span-10">Content</div>
+        <div className="bg-orange-500 col-span-2 row-span-10 overflow-y-auto">
+          Sidebar Content Sidebar Content Sidebar Content Sidebar Content Sidebar Content Sidebar
+          Content Sidebar Content Sidebar Content Sidebar Content Sidebar Content Sidebar Content
+          Sidebar Content Sidebar Content Sidebar Content Sidebar Content Sidebar Content Sidebar
+          Content Sidebar Content Sidebar Content Sidebar Content
+        </div>
+        <div className="bg-purple-500 col-span-10 row-span-10 overflow-y-auto">
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+        </div>
       </div>
     </div>
   );
