@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "@/sections/navbar/navbar";
+import UI from "@/sections/navbar/navbar";
 import { useDarkModeContext } from "@/contexts/darkmode-context";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className={darkMode ? "dark" : ""}>
       <div className="bg-white text-black dark:bg-black dark:text-white">
-        <Navbar />
+        <UI />
         GitftMe app under construction
         <div className="block">
           <div>
