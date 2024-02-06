@@ -4,12 +4,17 @@ import Links from "./sub-components/links";
 import Avatar from "./sub-components/avatar";
 
 const Navbar: FC = () => {
-
   return (
-    <nav className="flex h-full justify-between align-center">
-      <div><Logo/></div>
-      <div><Links/></div>
-      <div><Avatar/></div>
+    <nav className="flex h-full justify-between items-center px-3">
+      <div>
+        <Logo />
+      </div>
+      <div>
+        <Links />
+      </div>
+      <div>
+        <Avatar />
+      </div>
     </nav>
   );
 };

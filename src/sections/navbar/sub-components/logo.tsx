@@ -1,11 +1,10 @@
 import React, { FC } from "react";
-import Link
- from "next/link";
+import Link from "next/link";
 const Logo: FC = () => {
-     return (
-        <Link href="/">
-            Logo
-        </Link>
+  return (
+    <div className="flex align-center">
+      <Link href="/">Logo</Link>
+    </div>
   );
-}
-    export default Logo;
+};
+export default Logo;
