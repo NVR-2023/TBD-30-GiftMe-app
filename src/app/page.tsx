@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useDarkModeContext } from "@/contexts/darkmode-context";
+import LogoIcon from "@/components/logo-icon";
 
 export default function Home() {
   const { darkMode, setDarkMode } = useDarkModeContext();
@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <main className={darkMode ? "dark" : ""}>
       <div className="bg-white text-black dark:bg-black dark:text-white">
+        <LogoIcon/>
         GitftMe app under construction
         <div className="block">
           <div>
