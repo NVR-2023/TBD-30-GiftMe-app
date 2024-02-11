@@ -1,6 +1,6 @@
 import React , {FC} from "react"
-import ContentHeading from "../content-heading";
-import ContentControls from "../content-controls";
+import ContentHeading from "./content-heading";
+import ContentControls from "./content-controls";
 
 const ContentNavbar:FC = () => {
   return (

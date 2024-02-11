@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Close family",
+      "giftersArray": [
+        {
+          "id": 11,
+          "name": "Mom",
+          "avatarImage": ""
+        },
+        {
+          "id": 12,
+          "name": "Dad",
+          "avatarImage": ""
+        },
+        {
+          "id": 13,
+          "name": "Sister",
+          "avatarImage": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Work",
+      "giftersArray": [
+        {
+          "id": 21,
+          "name": "John Reach",
+          "avatarImage": ""
+        },
+        {
+          "id": 22,
+          "name": "Maria Mcalister",
+          "avatarImage": ""
+        },
+        {
+          "id": 23,
+          "name": "Jude Baltimore",
+          "avatarImage": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Friends",
+      "giftersArray": [
+        {
+          "id": 31,
+          "name": "Peter Canary",
+          "avatarImage": ""
+        },
+        {
+          "id": 32,
+          "name": "Ted Manipuri",
+          "avatarImage": ""
+        },
+        {
+          "id": 33,
+          "name": "Belinda Kowalsky",
+          "avatarImage": ""
+        }
+      ]
+    }
+  ]
+}

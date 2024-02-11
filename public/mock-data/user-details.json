@@ -1,0 +1,12 @@
+{
+  "userDetails": {
+    "userId": 1,
+    "userName": "JohnDoe",
+    "userJWT": "your-jwt-token",
+    "userAvatar": "/public/images/avatars/avatar01.jpg",
+
+    "isLogged": true
+  },
+  "theme": "dark"
+
+}

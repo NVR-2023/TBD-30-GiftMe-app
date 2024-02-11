@@ -1,0 +1,24 @@
+{
+  "notifications": {
+    "notificationsArray": [
+      {
+        "id": 1,
+        "message": "New message received",
+        "isRead": false,
+        "sent": "2023-01-15T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "message": "Reminder: Upcoming event",
+        "isRead": true,
+        "sent": "2023-01-16T14:45:00Z"
+      },
+      {
+        "id": 3,
+        "message": "Notification test",
+        "isRead": false,
+        "sent": "2023-01-17T12:00:00Z"
+      }
+    ]
+  }
+}
